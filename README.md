@@ -1,6 +1,6 @@
 # Duck Google!
 Duck Google! politely asks you if you would like to visit DuckDuckGo instead
-when you erroneously visit Google (or another major search engine).
+when you erroneously.
 
 ## Ignoring Domains
 If for some reason you decide that you don't want Duck Google! to ask

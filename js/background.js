@@ -3,7 +3,7 @@
 // domains in this list.  This list can be updated by
 // message passing from the options script.
 var ignoredDomains = [];
-var badDomains = ['www.google.com', 'www.yahoo.com'];
+var badDomains = ['www.google.com'];
 
 // Helper function to get the hostname from a URL
 function getHostname(url) {
