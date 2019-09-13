@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Options page</title>
+  <link rel="stylesheet" href="../libraries/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/default.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <h1>Duck Google! Options</h1>
+    </div>
+    <div class="row">
+      <p>On this page you can add or remove domains you would like Duck Google! not to protect you from.</p>
+    </div>
+    <div class="row">
+      <h2>Ignored Domains</h2>
+    </div>
+    <div class="row">
+      <div class="alert alert-warning" id="ignoredDomainErrors"></div>
+    </div>
+    <div class="row input-group">
+      <input class="form-control" id="newDomainToIgnore" type="text" placeholder="Add new ignored domain..."></input>
+      <span class="input-group-btn">
+        <button class="btn btn-default"
+                id="addIgnoredDomain"
+                type="button">Ignore</button>
+      </span>
+    </div>
+    <div class="row">
+      <table class="table table-striped" id="ignoredDomains">
+        <thead>
+          <th>Domain</th>
+          <th>Action</th>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script src="../libraries/js/jquery-1.11.1.js"></script>
+  <script src="../js/options.js"></script>
+</body>
+
+</html>
